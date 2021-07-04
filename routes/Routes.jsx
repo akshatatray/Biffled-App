@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import OnboardingStack from "./OnboardingStack";
+import AuthStack from "./AuthStack";
 
 import { MMKV } from 'react-native-mmkv';
 
