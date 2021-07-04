@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { useAnimatedRef } from 'react-native-reanimated'
 import { StyleSheet, View, Dimensions, ScrollView, Platform, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import Screen1 from './Screen1';
-import Screen2 from './Screen2';
-import Screen3 from './Screen3';
+import ScreenOne from './ScreenOne';
+import ScreenTwo from './ScreenTwo';
+import ScreenThree from './ScreenThree';
 import { MMKV } from 'react-native-mmkv';
 import { StatusBar } from 'expo-status-bar';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -59,9 +59,9 @@ const Onboarding = ({ navigation }) => {
                 }}
                 ref={scrollRef}
             >
-                <Screen1 width={width} height={height} />
-                <Screen2 width={width} height={height} />
-                <Screen3 width={width} height={height} navigation={navigation} />
+                <ScreenOne width={width} height={height} />
+                <ScreenTwo width={width} height={height} />
+                <ScreenThree width={width} height={height} navigation={navigation} />
             </ScrollView>
             <View style={styles.paginationWrapper}>
                 {Array.from(Array(3).keys()).map((key, index) => (

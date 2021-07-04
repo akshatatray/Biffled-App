@@ -22,7 +22,7 @@ const ScreenTwo = ({ width, height }) => {
                     className="LowerScreenTwo"
                     style={styles.lowerScreen}
                 >
-                    <Image style={{width: "100%", resizeMode: "contain"}} source={require('../../Assets/img/onboarding-2.png')}/>
+                    <Image style={{width: "100%", resizeMode: "contain"}} source={require('../../assets/img/onboarding-2.png')}/>
                 </View>
             </View>
         </View>

@@ -27,7 +27,7 @@ const ScreenThree = ({ width, height, navigation }) => {
                     className="LowerScreenThree"
                     style={styles.lowerScreen}
                 >
-                    <Image style={{ height: "100%", width: "100%", resizeMode: "contain" }} source={require('../../Assets/img/onboarding-3.png')}/>
+                    <Image style={{ height: "100%", width: "100%", resizeMode: "contain" }} source={require('../../assets/img/onboarding-3.png')}/>
                     <View style={styles.btnView}>
                         <TouchableOpacity 
                             style={styles.btn}

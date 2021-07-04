@@ -20,7 +20,7 @@ const ScreenOne = ({ width, height }) => {
                     className="LowerScreenOne"
                     style={styles.lowerScreen}
                 >
-                    <Image style={{ height: "100%", resizeMode: "contain" }} source={require('../../Assets/img/onboarding-1.png')}/>
+                    <Image style={{ height: "100%", resizeMode: "contain" }} source={require('../../assets/img/onboarding-1.png')}/>
                 </View>
             </View>
         </View>
