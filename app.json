@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "BiffledApp",
+    "slug": "BiffledApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "BiffledApp"
+}
